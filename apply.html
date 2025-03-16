@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EM</title>
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            function handleSubmit(event) {
+           event.preventDefault();
+           alert('Registered! Dont forget to check your e-mail and good luck!');
+
+               setTimeout(() => {
+               window.location.href = 'index.html';
+           }, 3000)
+        }
+       </script>
+    </head>
+    <body>
+        <img src="logo.png" alt="The university on the web!" style="float: left; width: 200px; height: 75px;"> 
+        <br><br><br>
+        <h1>Entrance exam</h1>
+
+        <form id="apply" onsubmit="handleSubmit(event)">
+           <label for='Full name'>Full name:</label> <br>
+           <input type="text" id="Full name"> <br>
+
+           <label for="Email">E-mail:</label> <br> 
+           <input type="email" id="email"> <br>
+        
+          <p style="font-size: 20px;"> What course? </p>
+             <label for="Humanities">Humanities</label> 
+             <input type="radio" id="Humanities" name="course" value="HUM"> <br>
+            
+             <label for="Maths">Maths</label>
+             <input type="radio" id="Maths" name="course" value="MAT"> <br>
+            
+             <label for="Biology">Biology</label> 
+            <input type="radio" id="Biology" name="course" value="BIO"> <br>
+            
+            <p style="font-size: 20px;"> Phase 1 <br> What makes you study here and why did you select that course? <br> Must be 500 to 3000 characters.</p>
+            <textarea minlength="500" maxlength="3000"></textarea>
+          <br> <input type="submit">
+
+          <p style="text-align: left;">Once accepted, you can chose your shift time and campus for phase 2 <br> You can resize the text area for your comfort</p>
+        </form>
+        
+    </body>
+</html>
