@@ -3,7 +3,7 @@ This is a manual of how to use this project!
 As this repository envolves lot's of files, it will be explained how does this front-end project do.
 
 Part 1: homepage use and navigation\
-The homepage is called main. There will be navigation to login, apply (written as Entrance Exam) and courses.
+The homepage is called index. There will be navigation to login, apply (written as Entrance Exam) and courses.
 To go back to homepage, click on the logo.
 
 Part 2: login\
