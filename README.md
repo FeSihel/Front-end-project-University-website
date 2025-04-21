@@ -16,3 +16,5 @@ Notice that this is a Front-end and it's not connected to backend. With that you
 After clicking on a link or submit, it may appear a message box (if you applied) and auto-redirects to another page.
 
 you can try here: https://fesihel.github.io/Front-end-project-University-website/
+
+Bug: the logo redirects to error 404 site, it was supposed to redirect to index.html
